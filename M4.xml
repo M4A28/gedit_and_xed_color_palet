@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="m4" _name="M4" version="1.0">
+    <author>Mohammed Mosa</author>
+    <_description>Custom theme color for gedit, xed editors</_description>
+
+    <!--    I have more work to do hear ;)-->
+    <!-- Colors -->
+    <color name="dark_background" value="#282C34"/>
+    <color name="red" value="#E06C75"/>
+    <color name="green" value="#98C379"/>
+    <color name="dark_green" value="#007a00"/>
+    <color name="yellow" value="#E5C07B"/>
+    <color name="sold_yellow" value="#ffff00"/>
+    <color name="orange" value="#ffaa00"/>
+    <color name="blue" value="#61AFEF"/>
+    <color name="medium_blue" value="#003b70"/>
+    <color name="pink" value="#C678DD"/>
+    <color name="cyan" value="#56B6C2"/>
+    <color name="gray" value="#ABB2BF"/>
+    <color name="extra_light_gray" value="#e6e6e6"/>
+    <color name="light_gray" value="#d0d0cf"/>
+    <color name="dark_gray" value="#353535"/>
+    <color name="black" value="#000000"/>
+
+    <!-- Global Settings -->
+    <style name="text" foreground="gray" background="dark_background"/>
+    <style name="cursor" foreground="blue"/>
+    <style name="current-line" background="medium_blue"/>
+    <style name="line-numbers" foreground="light_gray" background="dark_gray"/>
+    <style name="draw-spaces" foreground="light_gray"/>
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match" foreground="orange" bold="true"/>
+    <style name="bracket-mismatch" background="dark_green" bold="true"/>
+    <style name="search-match" foreground="black" background="sold_yellow"/>
+
+    <!-- Comments -->
+    <style name="def:comment" foreground="orange" italic="true"/>
+    <style name="def:shebang" foreground="red" italic="true"/>
+    <style name="def:doc-comment-element" foreground="dark_gray" bold="true"/>
+
+    <!-- Constants and Variables-->
+    <style name="def:constant" foreground="yellow"/>
+    <style name="def:string" foreground="green"/>
+    <style name="def:special-char" foreground="light_grey"/>
+    <style name="def:special-constant" foreground="pink" bold="true"/>
+    <style name="def:boolean" foreground="pink"/>
+    <style name="def:number" foreground="orange"/>
+    <style name="def:floating-point" foreground="orange"/>
+    <style name="def:keyword" foreground="pink" bold="true"/>
+    <style name="def:builtin" foreground="pink" bold="true"/>
+    <style name="def:variable" foreground="light_grey"/>
+
+    <!-- Identifiers -->
+    <style name="def:identifier" foreground="light_grey"/>
+
+    <!-- Statements -->
+    <style name="def:statement" foreground="orange"/>
+
+    <!-- Types -->
+    <style name="def:type" foreground="blue"/>
+
+    <!-- Others -->
+    <style name="def:error" foreground="white" background="dark_green" bold="true"/>
+    <style name="def:note" foreground="yellow" bold="true"/>
+    <style name="def:net-address-in-comment" foreground="blue" italic="false" underline="true"/>
+    <style name="def:preprocessor" foreground="light_grey"/>
+
+    <!-- Unknown? -->
+    <style name="def:specials" foreground="white" background="yellow"/>
+
+    <!-- C Styles -->
+    <style name="c:preprocessor" map-to="def:special-char"/>
+
+    <!-- Diff Styles -->
+    <style name="diff:ignore" foreground="dark_gray"/>
+
+    <!-- Ruby Styles -->
+    <style name="ruby:module-handler" foreground="blue"/>
+    <style name="ruby:symbol" foreground="pink"/>
+    <style name="ruby:regex" foreground="blue"/>
+
+    <!-- SH Styles -->
+    <style name="sh:function" foreground="yellow"/>
+    <style name="sh:others" map-to="text"/>
+
+    <!-- XML Styles -->
+    <style name="xml:attribute-name" foreground="light_grey"/>
+    <style name="xml:element-name" foreground="red"/>
+
+</style-scheme>
